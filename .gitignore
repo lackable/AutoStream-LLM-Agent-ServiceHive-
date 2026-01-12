@@ -1,0 +1,8 @@
+.venv
+pycaches
+volumes
+.env
+.vscode
+pycache/
+.cpython-312.pyc
+vectorstores
