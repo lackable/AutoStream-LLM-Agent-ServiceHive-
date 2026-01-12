@@ -53,7 +53,7 @@ After collecting both values, the agent triggers a mock backend tool:
 ```python
 def mock_lead_capture(name, email):
     print(f"Lead captured successfully: {name}, {email}")
-
+```
 
 ## 🧩 Architecture Explanation
 
@@ -73,22 +73,26 @@ Once high intent is detected, the agent transitions into a lead qualification ph
 Follow the steps below to run the AutoStream conversational agent on your local machine.
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/lackable/AutoStream-LLM-Agent-ServiceHive-.git
 cd AutoStream-LLM-Agent-ServiceHive-
-
+```
 ### 2. Install Dependencies
 
+```
 pip install -r requirements.txt
+```
 
 ### 3. Setup .env key
-
+```
 GOOGLE_API_KEY = <APIKEY>
+```
 
 ### 4. Run The Agent
-
+```
 python main.py
-
+```
 
 ## 📱 WhatsApp Deployment Using Webhooks
 
